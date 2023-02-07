@@ -9,7 +9,7 @@ import "@openzeppelin/contracts/utils/Counters.sol";
 
 
 
-contract SINOrigins is ERC721Enumerable, ERC2981, Ownable {
+contract SIN_Origins is ERC721Enumerable, ERC2981, Ownable {
     using Counters for Counters.Counter;
 
     uint256 public constant MAX_ID = 99;
@@ -24,7 +24,7 @@ contract SINOrigins is ERC721Enumerable, ERC2981, Ownable {
 
     constructor(string memory _setBaseUri) 
         ERC721(
-            "SIN Origin",
+            "Semiotic Interpretation of Nature (SIN) : Origins",
             "SINv0"
         ){
             baseUri = _setBaseUri;
