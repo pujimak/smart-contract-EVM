@@ -12,7 +12,7 @@ contract CantoIsNotForTheWeak is ERC20, ERC20Burnable, ERC20Permit, ERC20Votes, 
         ERC20("Canto is Not for The Weak", "CINFTW")
         ERC20Permit("Canto is Not for The Weak")
     {
-        _mint(msg.sender, 1000000000000000 * 10 ** decimals());
+        _mint(msg.sender, 100000000000000 * 10 ** decimals());
     }
 
     // The following functions are overrides required by Solidity.
